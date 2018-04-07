@@ -21,15 +21,16 @@ class App extends React.Component {
   render() {
     return (
       <div>
+				<div align="center">
 	    <AppBar position="static" style={styles.appBarStyle}>
 			<Toolbar>
-				<Typography variant="title" color="inherit">
+				<Typography variant="title" color="Blue">
 					React Assignment	
 				</Typography>
 			</Toolbar>
 		</AppBar>
 		<EmailField />
-    <TextField />
+				</div>
       </div>
     );
   }
